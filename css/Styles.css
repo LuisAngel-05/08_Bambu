@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+
+@font-face {
+    font-family: "Bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Redes";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+@font-face {
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+@font-face {
+    font-family: "Grunge";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 0px;
+}
+/* HEADER */
+#inicio{
+    background-color: #000;
+    height: 100vh;
+}
+
+#titulos{
+    width: 100%;
+    height: 100vh;
+    vertical-align: top;
+    overflow: hidden;
+    background: url(../Images/BAMBU.jpg) no-repeat 30% 30%;
+    background-size: cover;
+    text-align: center;
+    padding: 25vh 100px;
+    color: #fff;
+}
+/* Luis Angel Gutierrez EVN-304 */
+#BAMBU{
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    translate: 0 15%;
+    display: inline-block;
+    width: 50%;
+
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+    font-size: 2.0rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+#principal{
+    height: 100vh;
+}
+/* NAV */
+    nav{
+        position: sticky;
+        top: 100%;
+        width: 120%;
+        bottom: auto;
+        background-color: rgba(235, 235, 234, 0.1);
+        text-align: center;
+        translate: 0% 325%;
+        margin-left: -10%;
+        margin-bottom: -1.3%;
+    }
+        a{
+            font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+            font-size: 2.0rem;
+            color: #fff ;
+            display: inline-block;
+            letter-spacing: 2px;
+            text-decoration: none;
+            font-weight: bold;
+            width: 25%;
+            border: solid #fff;
+        }
+        a:hover{
+            color: #524d81;
+            font-size: 2.2rem;
+            font-weight: bolder;
+        }
+        .contenedor{
+            text-align: center;
+            padding: 30px;
+            margin-top: 15px;
+        }
+        .titulo1{
+            width: 20%;
+            font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+            text-align: center;
+            font-size: 3.0rem;
+            color: #000000;
+            margin-top: -6.5%;
+            margin-bottom: 20px;
+            margin: 0 auto;
+        }
+        #casabambu{
+        width: 50%;
+        margin: 10px;
+        margin-top: 30px;
+        display: inline-block;
+         }
+        .definicionbambu{
+            font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+            font-size: 1.2rem;
+            color: #000;
+            text-align: justify;
+            display: inline-block;
+            width: 42%;
+            margin-top: 30px;
+            margin: 20px;
+            translate: 0 50%;
+        }
+        .Informacion{
+            translate: 0 -200px;
+        }
+        .Informacion::first-letter{
+            font-size: 2.5rem;
+            float: left;
+            margin-right: 5px;
+            margin-top: -5px;
+        }
+        .iconos{
+            text-align: center;
+            width: 100%;
+            padding: 30px;
+            top: 10px;
+        }
+
+        .logo1{
+            width: 33%;
+            color: #000;
+            font-size: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: inline-block;
+            margin: 0 auto;
+            
+        }
+        .logo1 span{
+            font-size: 4rem;
+        }
+        .logo2{
+            width: 33%;
+            color: #000;
+            font-size: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: inline-block;
+            margin: 0 auto;
+            
+        }
+        .logo2 span{
+            font-size: 4rem;
+        }
+        .logo3{
+            width: 33%;
+            color: #000;
+            font-size: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: inline-block;
+            margin: 0 auto;
+            
+        }
+        .logo3 span{
+            font-size: 4rem;
+        }
+        span{
+            color: #0034ee;
+            font-size: 8rem;
+            margin: 0 auto;
+            width: 33%;
+        }
+        .imagen{
+            background: url(../Images/redpanda31.jpg) no-repeat fixed;
+            background-size: cover;
+            height: 100vh;
+            margin: 10px 10px;
+        }
+        .tituloContacto{
+            font-size: 5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            text-align: center;
+            margin: 0 auto;
+            translate: 0 250%;
+        }
+        .Nacionales{
+            margin-top: 3%;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+            font-size: 3.0rem;
+            color: #000000;
+            
+        }
+        .Infonacionales{
+            margin-top: 5%;
+            font-family: Arial, Helvetica, sans-serif;
+           float: left;
+           font-size: 1.2rem;
+           color: #000;
+           margin-left: 50px;
+           margin-bottom: 30px;
+           
+        }
+        #Imagen1{
+            width: 30%;
+            margin-left: 40px;
+            height: 300px;
+            margin-top: 10px;
+            padding-bottom: 40px;
+            
+        }
+        #mapa{
+        
+            margin-top: 0% auto;
+            width: 100%;
+            height: 400px;
+            
+        }
+        #foto{
+            background: url(../Images/Panda.png) no-repeat fixed;
+            background-size: cover;
+            padding: 50px 0 50px 0;
+        }
+        footer{
+            background-color: #daa1db;
+        
+        }
+        .icono{
+            width: 20%;
+            color: #000000;
+            font-size: 4rem;
+            margin-left: 0%;
+            translate: -40%;
+            font-family: 'Redes';
+
+        }
+        
+        #rs, #derechos{
+            width: 50%;
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0px 50px;
+        
+        }
+        
+        #rs a{
+            font-family: Grunge, cursive;
+            padding-top: 30px;
+        
+        }
+        
+        #derechos{
+            font-size: 1rem;
+            color: ghostwhite;
+            font-family: 'Baloo Bhai', cursive;
+            text-align: left;
+        
+        }     
+          
+          .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+          }
+          
+          .nav-list {
+            list-style: none;
+            display: flex;
+          }
+          
+          .nav-list li {
+            margin: 0 10px;
+            text-align: right;
+
+          }
+          
+          .nav-list li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 16px;
+          }
+          
+          footer {
+            font-size: 10px;
+            width: 100%;
+            height: 300px;
+          }
+          footer p{
+            background-color: #daa1db;
+          }
+          #F{
+            position: absolute;
+            color: #000000;
+            font-size: 2rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 200px;
+            border: none;
+            top: 3650px;
+          }
+          #I{
+            position: absolute;
+            color: #000000;
+            font-size: 2rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 200px;
+            top: 3720px;
+            border: none;
+          }
+          #T{
+            position: absolute;
+            color: #000000;
+            font-size: 2rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 200px;
+            top: 3790px;
+            border: none;
+          }
+
+          #opc1{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 200px;
+            top: 3650px;
+            border: none;
+
+          }
+          #opc2{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 200px;
+            top: 3700px;
+            border: none;
+            
+          }
+          #opc3{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 200px;
+            top: 3750px;
+            border: none;
+            
+          }
+          #opc4{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 200px;
+            top: 3800px;
+            border: none;
+            
+          }
+          #opc5{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 400px;
+            top: 3650px;
+            border: none;
+            
+          }
+          #opc6{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 400px;
+            top: 3700px;
+            border: none;
+            
+          }
+          #opc7{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 400px;
+            top:  3750px;
+            border: none;
+            
+          }
+          #opc8{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 400px;
+            top: 3800px;
+            border: none;
+            
+          }
+          #opc9{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 600px;
+            top: 3650px;
+            border: none;
+            
+          }
+
+          #opc10{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 600px;
+            top: 3700px;
+            border: none;
+            
+          }
+
+          #opc11{
+            position: absolute;
+            color: #000000;
+            font-size: 1rem;
+            margin-left: 0%;
+            translate: -40%;
+            left: 600px;
+            top:  3750px;
+            border: none;
+            
+          }
+
+           
+          .brand-name {
+            position: absolute;
+            font-size: 40px;
+            font-weight: bold;
+            background-color: #daa1db;
+            top: 3720px;
+            left: 1200px;
+          }
+
+          footer p{
+
+            border: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: absolute;
+            font-size: 12px;
+            top: 3840px;
+            left: 1160px;
+            color: #000;
+          }
+
+          #LOGO{
+            position: absolute;
+            background-size: cover;
+            padding: 50px 0 50px 0;
+            width: 200px;
+            left: 40px;
+            top: 0%;
+          }
